@@ -1,0 +1,474 @@
+html * {
+  font-family: Asap;
+}
+
+h1 {
+  text-align: center;
+  /*color: #9cc;*/
+  color:deeppink;
+  margin-bottom: 0;
+  margin-top: 120px;
+  font-family: Cour;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 75px;
+}
+p {
+	color:darkgoldenrod;
+}
+h2 {
+  /*color: #9cc;*/
+  color: #18babc;
+  font-family: "Cour";
+  font-weight: bold;
+  font-size: 32px;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+textarea:focus {
+  outline: 0;
+}
+
+a { color: darkgoldenrod;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  margin: auto;
+  width: 1000px;
+  position: relative;
+}
+
+/*deprecated
+#maindiv { 
+	margin: auto;
+    width: 720px;
+    height: 100%;
+    padding: 10px;
+    background-color: #7a9;
+}*/
+
+#top {
+  background-image: url("imagens/imagem.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px;
+}
+
+#top .container {
+  background-image: url(https://media.giphy.com/media/7FrOU9tPbgAZtxV5mb/giphy-downsized-large.gif);
+  height: 600px;
+	width: auto;
+}
+
+#header {
+  background-color: black;
+  height: 100px;
+}
+
+#menutop {
+  float: right;
+  margin-top: 50px;
+  margin-right: 0px;
+}
+
+#menutop a {
+  font-family: "Cour";
+  line-height: normal;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ed5375;
+}
+
+#menutop a:hover {
+  /*color: #c4529f;*/
+  color:deeppink
+}
+
+#menutop li {
+  margin-right: 30px;
+  display: inline;
+}
+
+#titulo {
+  float: left;
+  width: 100%;
+}
+
+#titulo p {
+  text-align: center;
+}
+
+#subtitulo {
+  color:deeppink;
+  font-family: "Cour";
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+#explicacao {
+  color:gold;
+  width: 400px;
+  margin: auto;
+}
+
+#seta {
+  width: 100%;
+  height: 500px;
+  color: darkblue;
+}
+
+#seta a {
+  display: block;
+  margin: auto;
+  width: 42px;
+}
+
+#gradiente {
+  height: 100px;
+  color: darkturquoise;
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    transparent,
+    #050713
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    transparent,
+   color black,
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    transparent,
+    #0e163b
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(
+    transparent,
+    #000000
+  ); /* Standard syntax (must be last) */
+}
+
+#traducao {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  height: 600px;
+  background-color: black;
+}
+
+#traducao1 {
+  height: 130px;
+}
+
+#traducao1 h2 {
+  float: left;
+  width: 300px;
+}
+
+#BotaoMorse {
+  float: right;
+  width: 120px;
+  height: 35px;
+  margin: 20 0;
+  border: 0;
+  color: rgba(237, 83, 117, 0.6);
+  font-family: "AsapBD";
+
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+#BotaoCesar {
+  float: right;
+  width: 120px;
+  height: 35px;
+  margin: 20 0;
+  border: 0;
+  color: rgba(237, 83, 117, 0.6);
+  font-family: "AsapBD";
+
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+#vermaiscodigos {
+  
+  text-decoration: underline;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 28;
+  margin-left: 15;
+  display: inline-block;
+}
+
+#traducao2 {
+  height: 354px;
+}
+
+#traducao2 textarea {
+  float: left;
+  resize: none;
+  font-size: 30px;
+
+  -webkit-border-radius: 20px 0 0 20px;
+  -moz-border-radius: 20px 0 0 20px;
+  border-radius: 20px 0 0 20px;
+  border: hidden;
+  padding: 15px;
+  display: block;
+  width: 500px;
+  height: 350px;
+}
+
+#traducao2 textarea::placeholder {
+  color: rgba(237, 83, 117, 0.6);
+  font-family: AsapBD;
+  font-size: 18px;
+}
+
+.morse {
+  font-family: "Morse", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.morse2 {
+  font-size: 30px;
+  font-family: "Fredoka";
+}
+
+.cesar {
+  font-size: 30px;
+}
+
+#traducao2 p {
+  float: left;
+  color: white;
+  -webkit-border-radius: 0 20px 20px 0;
+  -moz-border-radius: 0 20px 20px 0;
+  border-radius: 0 20px 20px 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  width: 470px;
+  height: 320px;
+  max-height: 320px;
+  overflow: auto;
+  margin: 0;
+}
+
+#maiszinho {
+  font-family: AsapBD;
+  position: absolute;
+  left: 170px;
+  margin-top: 19px;
+  color: #bdbdbd;
+}
+
+#senha {
+  float: left;
+  resize: none;
+  text-align: right;
+
+  color: #4f4f4f;
+  font-family: AsapBD;
+  font-size: 14px;
+
+  width: 43px;
+  height: 30px;
+  padding: 7px 10px;
+  margin: 15px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: hidden;
+}
+
+#labelsenha {
+  float: left;
+  color: #bdbdbd;
+  margin-top: 20px;
+}
+
+#BotaoTraduzir {
+  float: right;
+  border: 0;
+  padding: 7px 40px;
+  margin: 15px;
+  font-family: Cour;
+  font-weight: bold;
+  height: 35px;
+
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+
+  background-color: #db526f;
+  color: white;
+}
+
+#infosenha {
+  float: right;
+  width: 240px;
+
+  font-size: 13px;
+  color: #bdbdbd;
+  text-align: right;
+}
+
+#sobreoscodigos {
+	background-color: black;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+#explicacodigos {
+  border-style: solid;
+  border-width: 3px;
+  padding: 60px 30px;
+  border-color: #18babc;
+  box-shadow: 0px 0px 20px #18babc inset, 0px 0px 20px #18babc;
+  height: 300px;
+}
+
+#explicacodigos h3 {
+  font-family: Cour;
+  font-weight: bold;
+  text-align: right;
+  color: #db526f;
+}
+
+#explicacodigos p {
+  color:darkgoldenrod;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+#explicacodigos a {
+  color: #db526f;
+  margin-left: 20px;
+}
+
+#sobreoibict {
+  background-color: #e2e2e2;
+  padding: 30px;
+  height: 500px;
+}
+
+#sobreoibict1 {
+  width: 50%;
+  float: left;
+}
+
+#sobreoibict1 h2 {
+  margin-bottom: 80px;
+}
+
+#sobreoibict1 p {
+  margin-left: 80px;
+  color: #4f4f4f;
+}
+
+#sobreoibict1 a {
+  margin: 10px;
+  color: #db526f;
+}
+
+#sobreoibict2 {
+  width: 30%;
+  float: right;
+}
+
+#sobreoibict2 img {
+  margin-top: 160px;
+}
+
+#gugu {justify-items: center;
+      padding-left: 30%;
+                          }
+
+#rodape {
+  background-color: #0e163b;
+  height: 50px;
+}
+
+#rodape p {
+  font-family: Asap;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+
+  color: #fff;
+  display: inline-block;
+}
+
+.braille {
+  font-family: "Braille", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+}
+
+@font-face {
+  font-family: "Morse";
+  src: url("fontes/morse/MorseCode.ttf");
+  src: url("fontes/morse/MorseCode.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Fredoka";
+  src: url("fontes/morse/FredokaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("css/fonts/Harabara.eot");
+  src: url("css/fonts/Harabara.woff") format("woff"),
+    url("css/fonts/Harabara.otf") format("opentype"),
+    url("css/fonts/Harabara.svg#filename") format("svg");
+}
+
+@font-face {
+  font-family: "Courier New";
+  src: url("fontes/CourierNew.ttf");
+}
+
+@font-face {
+  font-family: "Cour";
+  src: url("fontes/stephanie/COUR.TTF");
+}
+
+@font-face {
+  font-family: "Cour";
+  src: url("fontes/stephanie/COURBD.TTF");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: url("fontes/stephanie/ASAP-REGULAR.TTF");
+}
+
+@font-face {
+  font-family: "AsapBD";
+  src: url("fontes/stephanie/ASAP-BOLD.TTF");
+}

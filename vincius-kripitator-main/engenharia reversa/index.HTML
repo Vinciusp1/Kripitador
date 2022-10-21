@@ -1,0 +1,141 @@
+<HTml:5>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108376390-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-108376390-1');
+		</script>
+
+		<title>KRIPITADOR</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 		<link rel = "stylesheet" type = "text/css" href = "style.css" />
+ 		<link rel="icon" href="imagens/favicon-site-03.png" type="image/png" sizes="32x32">
+	</head>
+
+	<body>
+
+
+
+		<div id="top">
+			<div class="container">
+				<div id="header">
+				<img src="https://media.giphy.com/media/4hCJsNJ7zRcic/giphy.gif" alt="" style="height: 100px;">
+
+					<ul id="menutop">
+					  <li><a href="#traducao">&lt;tradutor&gt;</a></li>
+					  <li><a href="#sobreoscodigos">&lt;sobre os códigos&gt;</a></li>
+					</ul>
+
+				</div>
+
+				<div id="titulo">
+					<h1>Vincius KRIPITADOR</h1>
+					<p id="subtitulo">&lt;codificador&gt;</p>
+					<p id="explicacao">O processo de codificacao e encontrado tanto em acoes humanas primitivas, como na linguagem e na escrita, quanto nas tecnologias contemporâneas.</p>
+
+				</div>
+
+			</div>
+			<div id="gradiente">
+				
+				<div id="seta">
+					
+					<a href="#traducao"><img src="https://media.giphy.com/media/9SSReMu1zrzj7cTwJJ/giphy.gif" alt="Seta" width="70" height="70"></a>
+				
+				</div>
+
+			</div>
+		</div>
+
+		<div id="traducao">
+			<div class="container">
+
+				<div id="traducao1">
+					<h2>.codifique sua mensagem</h2>
+
+					
+					<a id="vermaiscodigos" href="#sobreoscodigos">ver mais sobre os códigos</a>
+					<button id="BotaoMorse" onclick="SetMorse()" style="background-color: white">código morse</button>
+					<button id="BotaoCesar" onclick="SetCesar()" style="background-color: #C4C4C4">cifra de César</button>
+
+				</div>
+
+				<div id="traducao2">
+					<textarea id="plaintext" placeholder=".digite sua mensagem aqui"></textarea>
+					<p id="cyphertext"></p>
+				</div>
+
+				<div id="traducao3">
+					<p id="maiszinho" class="extraCesar">+</p>
+
+					<p id="labelsenha" class="extraCesar">chave de codificação</p>
+
+					<textarea id="senha" class="extraCesar" maxlength="2" onKeyPress="validate(event)">3</textarea>
+					
+					<button id="BotaoTraduzir" onclick="Traduz()">traduzir</button>
+
+					<p id="infosenha" class="extraCesar" >as letras da sua mensagem serão substituídas por letras em posições à frente conforme a chave de codificação</p>
+				</div>
+				<br /> 
+
+				
+
+			</div>
+		</div>
+
+		<div id="sobreoscodigos">
+			<div class="container">
+				<h2>.sobre os códigos</h2>
+
+				<div id="explicacodigos">
+					<div style="width: 10%; float: left;" >
+						<h3>.cifra de César</h3>
+					</div>
+					<div style="width: 40%; float: left;">
+						<p>Júlio César, imperador romano de 100 a.C. a 44 a.C., utilizava um código para proteger as mensagens enviadas a seus generais. Assim, se a mensagem caísse em mãos inimigas, a informação não poderia ser compreendida. Cada letra do alfabeto era substituída pela letra três posições à frente, ou seja, o “A” era substituído pelo “D”, o “B” pelo “E”, o “C” pelo “F”, e assim sucessivamente. Qualquer código que tenha esse padrão é considerado uma Cifra de César, também conhecida como Código de César.</p>
+						<img src="https://media.giphy.com/media/3fi2LfPP8JwEEITR6y/giphy.gif" alt="1">
+					</div>
+					
+					<div style="width: 10%; float: left;">
+						<h3>.código morse</h3>
+					</div>
+					<div style="width: 40%; float: left;">
+						<p>Desenvolvido pelo pintor e inventor Samuel Morse em 1835, o sistema utiliza sons curtos e longos – representados por pontos e traços – para transmitir mensagens. Esse meio de comunicação foi muito utilizado por marinheiros durante o século XIX, pois possibilitava transmitir informações a distância. As mensagens são transmitidas por meio de som ou luz, podendo ser captadas por aparelhos como o telégrafo.</p>
+						<img src="https://media.giphy.com/media/bNKZ8NNqAnK12/giphy.gif" alt="">
+
+						 
+						
+					</div>
+
+				</div>
+
+			</div>
+			<img id="gugu" src="https://media.giphy.com/media/TWyMr2LNnW2A0/giphy.gif" alt="goku e vegeta" style="height: 32px," style="width: 100%; justify-items: center;">
+		</div>
+
+		
+
+
+
+
+		<div id="rodape">
+			<div class="container">
+				
+				<p aria-setsize="9">volte sempre meu nobre</p>  	<img id="sonic" src="https://media.giphy.com/media/PZShNCt8E51Ti/giphy.gif" alt="" style="padding-left: 32%";>
+
+				
+			
+			
+
+			</div>
+			
+		</div>
+		<script src="functions.js"></script>
+	</body>
+
+
+</HTml:5>
